@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentation API NestJS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Docsify CSS -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <!-- Notre CSS personnalisé -->
+  <link rel="stylesheet" href="custom.css">
+  
+  <!-- Prism pour la syntax highlighting -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.css">
+</head>
+<body>
+  <div id="app"></div>
+  
+  <script>
+    window.$docsify = {
+      name: 'API Gestion Logistique',
+      repo: 'https://github.com/votre-repo',
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 3,
+      coverpage: true,
+      auto2top: true,
+      themeColor: '#2563eb',
+      
+      search: {
+        placeholder: '🔍 Rechercher...',
+        noData: 'Aucun résultat trouvé',
+        depth: 3
+      },
+      
+      plugins: [
+        function(hook) {
+          hook.beforeEach(function(html) {
+            const now = new Date().toLocaleDateString('fr-FR', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            });
+            return html + `\n\n---\n\n<div class="docsify-updated">Dernière mise à jour : ${now}</div>`;
+          })
+        }
+      ]
+    }
+  </script>
+  
+  <!-- Scripts Docsify -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  
+  <!-- Prism pour le syntax highlighting -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+</body>
+</html>
