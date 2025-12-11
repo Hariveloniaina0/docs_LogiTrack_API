@@ -286,7 +286,6 @@ graph TD
 - Réception de commandes
 - Communication talkie-walkie
 
-[Voir la matrice complète des permissions](guides/permissions.md)
 
 ---
 
