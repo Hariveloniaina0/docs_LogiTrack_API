@@ -195,7 +195,6 @@ Architecture centralisée pour réseaux de magasins.
 ## Accès Multi-Plateformes
 
 Tous les services sont accessibles via :
-- **Web** : Interface responsive
 - **Mobile** : Application native (iOS/Android)
 - **API** : Intégrations tierces
 
@@ -204,14 +203,12 @@ Tous les services sont accessibles via :
 ## Support et Assistance
 
 Pour toute question sur les services :
-- Email : support@votre-entreprise.com
-- Téléphone : +33 X XX XX XX XX
-- Chat en direct : disponible dans l'application
+- Email : harivelo@g-fly.fr
 
 ---
 
 ## Mises à Jour
 
-Cette documentation est régulièrement mise à jour. Consultez le [changelog](CHANGELOG.md) pour suivre les évolutions.
+Cette documentation est régulièrement mise à jour.
 
 **Dernière mise à jour** : Décembre 2024

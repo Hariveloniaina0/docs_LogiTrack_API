@@ -297,17 +297,6 @@ graph TD
 <tr>
 <td align="center" width="25%">
 
-**Web**
-
-Interface responsive
-
-Tous navigateurs
-
-Aucune installation
-
-</td>
-<td align="center" width="25%">
-
 **Mobile iOS**
 
 Application native
@@ -406,7 +395,6 @@ JWT sécurisé
 **Support Technique :**
 - **Email** : harivelo@g-fly.fr
 - **Chat en direct** : Disponible 5j/7 
-- **Téléphone** : +261 34 39 076 04
 
 **Communauté :**
 - Forum utilisateurs
@@ -478,7 +466,6 @@ JWT sécurisé
 ### Équipe Support
 
 **Support Développeurs :**
-- Téléphone: +261 34 39 076 04
 - [Email](harivelo@g-fly.fr)
 
 ---
@@ -537,6 +524,6 @@ JWT sécurisé
 
 **Besoin d'aide ? N'hésitez pas à nous contacter !**
 
-[Email](mailto:harivelo@g-fly.fr) • [Téléphone](tel:+261 34 39 076 04)
+[Email](mailto:harivelo@g-fly.fr)
 
 </div>
